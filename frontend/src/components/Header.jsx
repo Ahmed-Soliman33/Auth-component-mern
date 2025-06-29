@@ -1,6 +1,7 @@
 import images from "../content/images.json";
 
 export default function Header() {
+  console.log(images);
   return (
     <header>
       <img
