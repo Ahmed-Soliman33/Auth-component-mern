@@ -1,9 +1,13 @@
-import logoImg from "../assets/logo.jpg";
+import images from "../content/images.json";
 
 export default function Header() {
   return (
     <header>
-      <img src={logoImg} className="mx-auto" alt="A form and a pencil" />
+      <img
+        src={images.logo.src}
+        className="mx-auto"
+        alt="A form and a pencil"
+      />
       <h1>React Forms</h1>
     </header>
   );
