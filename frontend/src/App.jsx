@@ -1,3 +1,4 @@
+import Signup from "./components/FormActionsSignup.jsx";
 import Header from "./components/Header.jsx";
 import Login from "./components/StateLogin.jsx";
 
@@ -6,7 +7,8 @@ function App() {
     <>
       <Header />
       <main>
-        <Login />
+        {/* <Login /> */}
+        <Signup />
       </main>
     </>
   );

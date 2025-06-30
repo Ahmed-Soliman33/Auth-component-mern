@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <img
-        src={`/src/assets/${images.logo.src}`}
+        src={images.logo.src}
         className="mx-auto"
         alt="A form and a pencil"
       />

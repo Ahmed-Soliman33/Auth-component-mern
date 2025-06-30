@@ -10,6 +10,7 @@ export default function Login() {
     event.preventDefault();
 
     const enteredEmail = email.current.value;
+    // eslint-disable-next-line no-unused-vars
     const enteredPassword = password.current.value;
 
     const emailIsValid = enteredEmail.includes("@");

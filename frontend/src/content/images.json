@@ -1,6 +1,6 @@
 {
   "logo": {
-    "src": "logo.jpg",
+    "src": "/src/assets/logo.jpg",
     "alt": "Image 1"
   }
 }
