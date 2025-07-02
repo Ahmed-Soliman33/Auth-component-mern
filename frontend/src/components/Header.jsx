@@ -1,9 +1,7 @@
 import images from "../content/images.json";
-// import logo from "../assets/logo.jpg";
 import { getImageUrl } from "@/utils/imageLoader";
 
 export default function Header() {
-  console.log(getImageUrl(images.logo.src));
   return (
     <header>
       <img

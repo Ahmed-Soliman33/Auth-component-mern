@@ -1,4 +1,4 @@
-import Signup from "./components/FormActionsSignup.jsx";
+import Signup from "./components/form-actions/FormActionsSignup.jsx";
 import Header from "./components/Header.jsx";
 import Login from "./components/StateLogin.jsx";
 
